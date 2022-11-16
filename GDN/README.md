@@ -1,14 +1,17 @@
 # GDN
 
-Code implementation for : [Graph Neural Network-Based Anomaly Detection in Multivariate Time Series(AAAI'21)](https://arxiv.org/pdf/2106.06947.pdf)
+1. Codes were modified from the original code implementation for : [Graph Neural Network-Based Anomaly Detection in Multivariate Time Series(AAAI'21)](https://arxiv.org/pdf/2106.06947.pdf) that are found in [d-ailin/GDN: Implementation code for the paper "Graph Neural Network-Based Anomaly Detection in Multivariate Time Series" (AAAI 2021)](https://github.com/d-ailin/GDN)
+2. Anomaly detection is performed on 16 variations of European Credit Card Fraud dataset using GDN.
+3. Random sampling of SWaT dataset is performed to validate if performance will degrad as time intervals will no longer be of equal intervals.
+
 
 
 # Installation
 ### Requirements
-* Python >= 3.6
-* cuda == 10.2
-* [Pytorch==1.5.1](https://pytorch.org/)
-* [PyG: torch-geometric==1.5.0](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html)
+* Python >= 3.8
+* cuda == 11.7
+* [Pytorch==1.13.0](https://pytorch.org/)
+* [PyG: torch-geometric==2.1.0](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html)
 
 ### Install packages
 ```
@@ -57,15 +60,18 @@ data
 
     # or using cpu
     bash run.sh cpu <dataset>
+    
+    # or running wrapper.py file for multiple experiments
+    python wrapper.py
 ```
-You can change running parameters in the run.sh.
+You can change running parameters in the run.sh or wrapper.py
 
 # Others
-SWaT and WADI datasets can be requested from [iTrust](https://itrust.sutd.edu.sg/)
+Each column of SWaT and European Credit Fraud Dataset are saved a numpy file. Run `npy2csv.ipynb` under `preprocess` folder to re-create the original dataset in csv format prior to further data processing to generate the required train.csv, test.csv and list.txt
 
 
 # Citation
-If you find this repo or our work useful for your research, please consider citing the paper
+All credit should go to the original researchers on GDN. Please consider citing the paper
 ```
 @inproceedings{deng2021graph,
   title={Graph neural network-based anomaly detection in multivariate time series},
