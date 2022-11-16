@@ -1,0 +1,10 @@
+docker build . -f Dockerfile -t capstone_ck
+
+docker run --name ck -it --rm --ipc=host --gpus '"device=0"' -p 8898:8888 -v ~/GDN:/workspace capstone_ck
+
+OSError: /opt/conda/lib/python3.6/site-packages/torch_sparse/_version.so: undefined symbol: _ZN3c105ErrorC1ENS_14SourceLocationERKSs
+
+docker run --name ck_omni -it --rm --gpus '"device=0"' -p 7898:8888 -v ~/OmniAnomaly:/workspace omnianomaly_ck
+
+
+docker run --name ck40 -it --rm --ipc=host --gpus '"device=1"' -v ~/GDN:/workspace capstone_ck
