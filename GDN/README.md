@@ -27,9 +27,9 @@ Run to check if the environment is ready
     bash run.sh <gpu_id> msl    # e.g. bash run.sh 1 msl
 ```
 
-## Data Preparation
+# Data Preparation
 ```
-# put your dataset under data/ directory with the same structure shown in the data/msl/
+# Put your dataset under data/ directory with the same structure shown in the data/msl/
 
 data
  |-msl
@@ -44,12 +44,12 @@ data
 
 ```
 
-### Notices:
+## Notices:
 * The first column in .csv will be regarded as index column. 
 * The column sequence in .csv don't need to match the sequence in list.txt, we will rearrange the data columns according to the sequence in list.txt.
 * test.csv should have a column named "attack" which contains ground truth label(0/1) of being attacked or not(0: normal, 1: attacked)
 
-## Run
+# Run
 ```
     # using gpu
     bash run.sh <gpu_id> <dataset>
