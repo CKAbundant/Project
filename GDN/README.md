@@ -27,10 +27,6 @@ Run to check if the environment is ready
     bash run.sh <gpu_id> msl    # e.g. bash run.sh 1 msl
 ```
 
-
-# Usage
-We use part of msl dataset(refer to [telemanom](https://github.com/khundman/telemanom)) as demo example. 
-
 ## Data Preparation
 ```
 # put your dataset under data/ directory with the same structure shown in the data/msl/
