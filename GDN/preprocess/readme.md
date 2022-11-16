@@ -8,4 +8,7 @@ The directory contains codes to pre-process SWaT and European Credit Card Fraud 
 ### Credit
 1. Load and combile npy files to generate creditcard.csv. Note that each npy file represent a column in credit dataset.
 2. Rename 'Class' to 'attack' with label 0/1
-2. run the jupyter notebook `process_credit.ipynb`
+2. run `process_credit.ipynb`
+
+### Random Sampling
+1. Run `random_sample.ipynb` to generate random sampling of swat dataset at varying rates.
