@@ -1,0 +1,16 @@
+,GDN
+Highest F1 Score,"adasyn
+(67.8%)"
+Highest F1 Score (under *),"anomaly
+(14.2%)"
+Mean F1 Score (under *),2.2%
+Highest Precision,"adasyn
+(61.9%)"
+Highest Precision (under *),"anomaly
+(11.6%)"
+Mean Precision (under *),1.2%
+Highest Recall,"adasyn_s
+(100.0%)"
+Highest Recall (under *),"all_s
+(72.2%)"
+Mean Recall (under *),39.8%
