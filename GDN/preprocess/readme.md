@@ -11,5 +11,5 @@ The directory contains codes to pre-process SWaT and European Credit Card Fraud 
 2. Run `process_credit.ipynb` to generate 14 under-sampled credit datasets and 2 over-sampled credit datasets.
 
 ### Random Sampling
-1. Run `random_sample.ipynb` to generate random sampling of swat dataset at varying rates.
+1. Run `random_sample.ipynb` to generate random sampling of swat dataset at 10%, 30%, 50%, 70% and 90% of the original swat dataset.
 2. `summary.csv` summarize number of records removed or added after under-sampling and over-sampling respectively.
