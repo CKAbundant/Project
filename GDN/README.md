@@ -3,7 +3,7 @@
 1. Codes were modified from the original code implementation for : [Graph Neural Network-Based Anomaly Detection in Multivariate Time Series(AAAI'21)](https://arxiv.org/pdf/2106.06947.pdf) that are found in [d-ailin/GDN: Implementation code for the paper "Graph Neural Network-Based Anomaly Detection in Multivariate Time Series" (AAAI 2021)](https://github.com/d-ailin/GDN)
 2. Anomaly detection is performed on 16 variations of European Credit Card Fraud dataset using GDN.
 3. Random sampling of SWaT dataset is performed to validate if performance will degrad as time intervals will no longer be of equal intervals.
-4. Experimental methodology,results and findings are documented in AIIT_Capstone_Group1_Report.pdf and Annex_E.pdf.
+4. Experimental methodology, results and findings are documented in `AIIT_Capstone_Group1_Report.pdf` and `Annex_E.pdf`.
 
 
 
@@ -64,7 +64,9 @@ data
 You can change running parameters in the run.sh or wrapper.py
 
 # Others
-Each column of SWaT and European Credit Fraud Dataset are saved a numpy file. Run `npy2csv.ipynb` under `preprocess` folder to re-create the original dataset in csv format prior to further data processing to generate the required train.csv, test.csv and list.txt
+* Each column of SWaT and European Credit Fraud Dataset are saved a numpy file. 
+* Run `npy2csv.ipynb` under `preprocess` folder to re-create the original dataset in csv format. 
+* Run `process_credit.ipynb` and `process_swat.py` to generate the required train.csv, test.csv and list.txt for credit dataset and swat dataset respectively.
 
 
 # Citation
