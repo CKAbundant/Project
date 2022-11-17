@@ -1,6 +1,6 @@
-# GDN
+# Anomaly Detection for Credit Card Fraud Dataset via GDN
 
-1. Codes were modified from the original code implementation for : [Graph Neural Network-Based Anomaly Detection in Multivariate Time Series(AAAI'21)](https://arxiv.org/pdf/2106.06947.pdf) that are found in [d-ailin/GDN: Implementation code for the paper "Graph Neural Network-Based Anomaly Detection in Multivariate Time Series" (AAAI 2021)](https://github.com/d-ailin/GDN)
+1. Codes were modified from the original code implementation for [Graph Neural Network-Based Anomaly Detection in Multivariate Time Series(AAAI'21)](https://arxiv.org/pdf/2106.06947.pdf) that are found in [d-ailin/GDN GitHub](https://github.com/d-ailin/GDN)
 2. Anomaly detection is performed on 16 variations of European Credit Card Fraud dataset using GDN.
 3. Random sampling of SWaT dataset is performed to validate if performance will degrad as time intervals will no longer be of equal intervals.
 4. Experimental methodology, results and findings are documented in `AIIT_Capstone_Group1_Report.pdf` and `Annex_E.pdf`.
