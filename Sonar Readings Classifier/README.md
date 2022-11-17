@@ -1,5 +1,5 @@
 # Objectives
-* Develop an ANN model to classify the 60 sonar readings to two classes, Rocks and Mines
+* Develop an Artificial Neural Network (ANN) model to classify the 60 sonar readings to two classes, Rocks and Mines
 
 # Dataset Information
 - Obtained from [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/)
