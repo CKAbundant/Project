@@ -1,0 +1,6 @@
+streamlit
+transformers
+bert-extractive-summarizer
+ipywidgets
+tqdm
+sentencepiece
