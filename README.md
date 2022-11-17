@@ -10,4 +10,4 @@ All my coding projects and assignments
 | 5 | Pokemon Classifier | Build CNN model to classify pokemon using transfer learning |
 | 6 | Sonar Readings Classifier | Build ANN model to classify sonar readings |
 | 7 | Abalone Classifier | Use various machine learning models to classify age of abalone |
-| 8 | Genie Voucher App | SQL database design for Genie Voucher App |
+| 8 | Genie Voucher App | Implement SQL database design for Genie Voucher App |
