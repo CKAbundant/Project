@@ -3,7 +3,7 @@
 * Perform extractive or abstractive summary on the translated English text.
 * Users allowed to determine the length of abstractive summary (from 10 to 50).
 * Use streamlit application for user to input text.
-* paragraph_summary.mp4 shows how paragraph summary is implemented in streamlit.
+* `paragraph_summary.mp4` shows how paragraph summary is implemented in streamlit.
 
 | S/N | File | Description |
 | :---: | :---: | :---: |
