@@ -1,0 +1,4 @@
+toycar
+cyclist
+pedestrain
+default
